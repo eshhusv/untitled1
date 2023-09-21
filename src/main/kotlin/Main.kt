@@ -1,5 +1,6 @@
 import kotlin.random.Random
 
+
 fun main(args: Array<String>) {
     val arr : Array<Array<Int>> = Array(20,{Array(10,{Random.nextInt(2,6)})})
     var sum = 0
